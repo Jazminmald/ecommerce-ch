@@ -1,0 +1,21 @@
+
+nav {
+  background-color: #FFB19A; 
+  margin: 0%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+    margin: 1em;
+    margin-top: 0%;
+    background-color: #FFB19A;
+    color: #EB7B5A;
+
+}
+
+button:hover{
+    color: #FFDAB9;
+}
