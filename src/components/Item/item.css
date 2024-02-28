@@ -1,0 +1,23 @@
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    border: #ff6b3e;
+    
+}
+h2{
+    color: #EB7B5A;
+}
+
+
+section{
+    color: #EB7B5A;
+    
+}
+footer{
+    color: #EB7B5A;
+}
+footer:hover{
+    color: #ff6b3e;
+}

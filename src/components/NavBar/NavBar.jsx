@@ -1,6 +1,8 @@
 import CartWidget from "../CartWidget/CartWidget";
 import LogoPeach from "../Logo/LogoPeach";
+import { Cart } from "../Cart/Cart";
 import './styles.css'
+import { Link } from "react-router-dom";
 
 
 const NavBar = () => {
@@ -8,21 +10,22 @@ const NavBar = () => {
     return (
 
         <nav>
-        
+        <Link to = '/'>
         <LogoPeach/>
-       
+        </Link>
 
         <div>
-           
-            <button>Conjuntos</button>
-            <button>Calzas & shorts</button>
-            <button>Remeras & Tops</button>
-            <button>Contacto</button>
-            <CartWidget/>
+           <div className="Categories">
+        <Link to={'/category/calzasyshorts'} className={({isActive}) => isActive ? 'ActiveOption' : Option} ><button>Calzas y shorts</button></Link>
+        <Link to={'/category/remerasytops'} className={({isActive}) => isActive ? 'ActiveOption' : Option}><button>Remeras y tops</button></Link>
+        <Link to={'/category/conjuntos'} className={({isActive}) => isActive ? 'ActiveOption' : Option}><button>Conjuntoss</button></Link>
+      
         </div>
-
-        
-            
+        <Link to={"/cart"}>
+        <CartWidget/>
+        </Link>
+          
+        </div>        
         </nav>
     )
 }
