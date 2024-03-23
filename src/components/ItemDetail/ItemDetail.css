@@ -1,0 +1,32 @@
+.item-detail-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: #EB7B5A;
+    font-size: 1.2rem;
+  }
+  
+
+  
+  .card-body {
+    padding: 30px; 
+    
+  }
+  
+  .card-title {
+    margin-bottom: 50px; 
+    
+  }
+  
+  .card-text {
+    margin: 10px; 
+    font-size: 2rem;}
+  
+  
+  .message {
+    color: #EB7B5A; /* Color de fondo del mensaje */
+    background-color: #eb7c5a57;
+    padding: 10px; /* Relleno interno del mensaje */
+    border-radius: 5px; /* Borde redondeado del mensaje */
+    margin-top: 10px; /* Margen superior del mensaje */
+  }

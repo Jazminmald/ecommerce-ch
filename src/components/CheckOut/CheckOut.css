@@ -1,0 +1,53 @@
+.order-summary-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f02c2c;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+
+  .thank-you-message {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  
+
+  label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+
+  .submit-button {
+    background-color: #EB7B5A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .submit-button:active {
+    background-color: #1e7e34;
+  }
